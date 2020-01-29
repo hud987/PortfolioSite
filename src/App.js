@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Container } from 'reactstrap'
+
+import Homepage from './components/Homepage'
 
 function App() {
+
+  useEffect(() => {
+    document.body.style.background = 'linear-gradient(to right, #6600cc, #cc00cc)'
+  }, []);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Container>
+          <Route path="/" exact component={Homepage}/>
+        </Container>
+      </Router>
     </div>
   );
 }
