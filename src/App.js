@@ -7,7 +7,7 @@ import Homepage from './components/Homepage'
 function App() {
 
   useEffect(() => {
-    document.body.style.background = 'linear-gradient(to right, #6600cc, #cc00cc)'
+    document.body.style.background = 'linear-gradient(to right, #3366cc, #009999)'
   }, []);
   
   return (
