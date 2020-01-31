@@ -10,22 +10,24 @@ export default class Homepage extends Component {
     return (
       
       <div>
-        <div style={{display: 'flex', justifyContent: 'center'}}>
+        <div style={{paddingTop: 30, display: 'flex', justifyContent: 'center'}}>
           <h1>**PIC HERE**</h1>
         </div>
-        <div style={{color: 'black', display: 'flex', justifyContent: 'center'}}>
+        <div style={{color: 'black', textAlign: 'center'}}>
           <h1 style={{fontSize: 60}}>Michael Hudachek</h1>
         </div>
         <div style={{color: 'black',display: 'flex', justifyContent: 'center'}}>
         <a href='mailto:mhudach@purdue.edu' style={{color: 'black'}}> Email</a>&nbsp;|&nbsp;<a href='https://github.com/hud987/' style={{color: 'black'}}>GitHub</a>&nbsp;|&nbsp;<a href='https://www.linkedin.com/in/michael-hudachek-4bb67812a/' style={{color: 'black'}}>LinkedIn</a>
         </div>
-        <Row style={{paddingTop: 50, height: 90, justifyContent: 'center'}}>
+        <Row style={{paddingTop: 20, height: 90, textAlign: 'center'}}>
+          <Col ></Col>
           <Col sm={5} style={{
+            margin: 20,
+            padding: 20,
             borderRadius:3, 
             marginRight: 20, 
             display: 'flex', 
             justifyContent: 'center',
-            padding: 30,
             backgroundColor: 'rgba(255, 255, 255, .1)'}}
           >
             <div>
@@ -38,11 +40,12 @@ export default class Homepage extends Component {
             </div>
           </Col>
           <Col sm={5} style={{
+            margin: 20,
+            padding: 20,
             borderRadius:3, 
             marginRight: 20, 
             display: 'flex', 
             justifyContent: 'center',
-            padding: 30,
             backgroundColor: 'rgba(255, 255, 255, .1)'}}
           >
             <div>
@@ -63,6 +66,7 @@ export default class Homepage extends Component {
               </div>
             </div>
           </Col>
+          <Col></Col>
         </Row>
 
       </div>
