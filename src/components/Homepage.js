@@ -4,6 +4,7 @@ import { Row, Col, Button } from 'react-bootstrap';
 //128 x 128
 import bikesafety from '../images/bikesafety.png'
 import buglogger from '../images/buglogger.png'
+import profile from '../images/selfie.png'
 
 export default class Homepage extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class Homepage extends Component {
       
       <div>
         <div style={{paddingTop: 30, display: 'flex', justifyContent: 'center'}}>
-          <h1>**PIC HERE**</h1>
+          <img src={profile} alt="profile"/>
         </div>
         <div style={{color: 'black', textAlign: 'center'}}>
           <h1 style={{fontSize: 60}}>Michael Hudachek</h1>
