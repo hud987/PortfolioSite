@@ -86,7 +86,7 @@ export default class Homepage extends Component {
             <div>
             <div style={{display: 'flex', justifyContent: 'center'}} ><img src={sdn} alt="SDN"/></div>
             <div style={{paddingTop: 20, display: 'flex', justifyContent: 'center'}}><h2 style={{color: 'black'}}>Distributed Router Sim</h2></div>
-            <div style={{paddingTop: 10}}><h6 style={{color: 'black'}}>This Web App simulates a distributed router network to easily demonstrate routing algorithms</h6></div>
+            <div style={{paddingTop: 10}}><h6 style={{color: 'black'}}>Web App to simulate router networks and easily demonstrate algorithms</h6></div>
             <div style={{paddingTop: 0}}><h6 style={{color: 'black'}}>React-Native | JavaScript</h6></div>
             <div style={{paddingTop: 10, display: 'flex', justifyContent: 'center'}}>
             <Row>
