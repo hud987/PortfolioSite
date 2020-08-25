@@ -85,11 +85,18 @@ export default class Homepage extends Component {
           >
             <div>
             <div style={{display: 'flex', justifyContent: 'center'}} ><img src={sdn} alt="SDN"/></div>
-            <div style={{paddingTop: 20, display: 'flex', justifyContent: 'center'}}><h2 style={{color: 'black'}}>UDP Network</h2></div>
-            <div style={{paddingTop: 10}}><h6 style={{color: 'black'}}>SDN with multiple switches connected to controller and dynamic routing</h6></div>
-            <div style={{paddingTop: 0}}><h6 style={{color: 'black'}}>Java</h6></div>
+            <div style={{paddingTop: 20, display: 'flex', justifyContent: 'center'}}><h2 style={{color: 'black'}}>Distributed Router Sim</h2></div>
+            <div style={{paddingTop: 10}}><h6 style={{color: 'black'}}>This Web App simulates a distributed router network to easily demonstrate routing algorithms</h6></div>
+            <div style={{paddingTop: 0}}><h6 style={{color: 'black'}}>React-Native | JavaScript</h6></div>
             <div style={{paddingTop: 10, display: 'flex', justifyContent: 'center'}}>
-            <Button onClick={() => {window.location='https://github.com/hud987/SoftwareDefinedNetwork'}} variant="dark" style={{backgroundColor: '#212529'}}>GitHub</Button>
+            <Row>
+              <Col>
+              <Button onClick={() => {window.location='https://github.com/hud987/DistributedRouters'}} variant="dark" style={{backgroundColor: '#212529'}}>GitHub</Button>
+              </Col>
+              <Col>
+              <Button onClick={() => {window.location='https://thawing-crag-42208.herokuapp.com/'}} variant="dark" style={{backgroundColor: '#212529'}}>Visit</Button>
+              </Col>
+              </Row>
             </div>
             </div>
           </Col>
