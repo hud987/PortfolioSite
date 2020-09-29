@@ -38,7 +38,7 @@ export default class Homepage extends Component {
             <div style={{paddingTop: 10}}><h6 style={{color: 'black'}}>Mobile app to warn drivers of nearby bicyclists</h6></div>
             <div style={{paddingTop: 0}}><h6 style={{color: 'black'}}>React-Native | Firebase</h6></div>
             <div style={{paddingTop: 10, display: 'flex', justifyContent: 'center'}}>
-            <Button onClick={() => {window.location='https://github.com/hud987/BikeSafetyApp'}} variant="dark" style={{backgroundColor: '#212529'}}>GitHub</Button>
+            <Button onClick={() => {window.location='https://github.com/hud987/BikeSafeApp'}} variant="dark" style={{backgroundColor: '#212529'}}>GitHub</Button>
             </div>
             </div>
           </Col>
