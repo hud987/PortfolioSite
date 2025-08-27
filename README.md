@@ -1,4 +1,4 @@
 ## Portfolio Website For Personal Projects
 
-simple website to serve as a portfolio and centralize my projects 
+I'm no longer hosting this anywhere, but this is a react frontend that can serve as a portfolio to dispaly personal projects 
 
