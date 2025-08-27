@@ -1,4 +1,4 @@
-## Portfolio Site
+## Portfolio Website For Personal Projects
 
-simple portfolio site
+simple website to serve as a portfolio and centralize my projects 
 
